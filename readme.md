@@ -51,3 +51,45 @@
 - Mutable and immutable
 - Operators
 - Operator Precedence
+
+---
+
+# Day 3
+
+- String and Template Literals
+- Type Conversion and Coercion
+- Mulit line Strings
+- IF | Else-if | Else
+- Number(), String(), Boolean()
+- We cannot conver to null, undefined
+- NaN = Invalid Number(Typeof is a Number)
+- Truthy and Falsy Values
+- Equality Operator
+  - Strict Equality ===
+  - Loose Equality ==
+- Difference Operator
+  - Strict !==
+  - Loose !=
+- Prompt
+- Boolean Logic
+  - AND(&&)
+    | Input | | Output |
+    | --- | --- | --- |
+    | X | Y | X && Y |
+    | true | true | true |
+    | true | false | false |
+    | false | true | false |
+    | false | false | false |
+  - OR( | | )
+    | Input | | Output |
+    | --- | --- | --- |
+    | X | Y | X \|\| Y |
+    | true | true | true |
+    | true | false | true |
+    | false | true | true |
+    | false | false | false |
+  - NOT(!)
+    | Input | Output |
+    | ----- | ------ |
+    | true | false |
+    | false | true |

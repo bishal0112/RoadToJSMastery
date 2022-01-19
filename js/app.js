@@ -26,7 +26,7 @@ const PI = 3.14;
 // ================================================================
 
 // #5101ff#5101ff#5101ff   DAY 2  #5101ff#5101ff#5101ff
-
+/*
 // Data Types
 
 // 1. Number
@@ -143,3 +143,72 @@ false || false;
 5 >>> 2;
 // ================================================================
 // ================================================================
+
+*/
+// #5101ff#5101ff#5101ff   DAY 3  #5101ff#5101ff#5101ff
+
+// String
+let string1 = "'This is a string in double quotes";
+let string2 = '"This is a string in single quotes';
+
+// Tempelate Literal Modern way
+
+let modernStringCreation = `This is the modern way of creating string's.`;
+
+// Typer conversion and coercion
+// Conversion ---> Explicit
+let number1 = "21";
+console.log(Number(number1));
+
+// Implicit
+let number2 = 10;
+let number3 = number2 + number1;
+console.log(number3);
+
+// MultiLine String
+// old way
+let oldWayMultiLine = "This is first line \n\
+this is second line \n ";
+// New way
+let newWayMultiLine = `This is first line
+this is second line `;
+
+// If-Else
+
+let age = 18;
+if (age > 18) {
+	console.log("Eligible for Voting...");
+} else {
+	console.log("Not Eligible for voting...");
+}
+
+// Else if
+
+let guess = 10;
+if (guess === 10) {
+	console.log("Correct Guess...");
+} else if (guess < 10) {
+	console.log("Guess a little Higher...");
+} else {
+	console.log("Guess a little Lower");
+}
+
+// Short Cut for emoji win + .
+
+// falsy values in js 0, '' , udefined, null, NaN
+
+// Equality operators
+// Loose Equality check
+console.log("5" == 5);
+// Strict Equality check
+console.log("5" === 5);
+// Difference Check
+//  != and !==
+
+// Prompt
+prompt("Enter Something");
+
+// Boolean Logics AND, OR and NOT for more check md file..
+console.log(true && true);
+console.log(true || true);
+console.log(!true);
