@@ -1,3 +1,5 @@
+"use strict";
+
 // #5101ff#5101ff#5101ff   DAY 1  #5101ff#5101ff#5101ff
 /*
 console.log("Hello World!");
@@ -146,7 +148,7 @@ false || false;
 
 */
 // #5101ff#5101ff#5101ff   DAY 3  #5101ff#5101ff#5101ff
-
+/*
 // String
 let string1 = "'This is a string in double quotes";
 let string2 = '"This is a string in single quotes';
@@ -212,3 +214,61 @@ prompt("Enter Something");
 console.log(true && true);
 console.log(true || true);
 console.log(!true);
+*/
+// ================================================================
+// ================================================================
+
+// #5101ff#5101ff#5101ff   DAY 3  #5101ff#5101ff#5101ff
+
+// Switch Statement
+
+let val = 12;
+switch (val) {
+	case 0:
+		console.log("Value is 0");
+		break;
+	case 1:
+		console.log("Value is 1");
+		break;
+	case 2:
+		console.log("Value is 2");
+		break;
+	case 3:
+		console.log("Value is 3");
+		break;
+	case 4:
+		console.log("Value is 4");
+		break;
+	case 5:
+		console.log("Value is 5");
+		break;
+	case 6:
+		console.log("Value is 6");
+		break;
+	case 7:
+		console.log("Value is 7");
+		break;
+	case 8:
+		console.log("Value is 8");
+		break;
+	case 9:
+		console.log("Value is 9");
+		break;
+	default:
+		console.log("Wrong Input!");
+}
+
+//  Statement
+
+if (10 > 4) {
+	console.log("10 is greater....");
+}
+
+// Expression
+
+20 + 5;
+
+// Ternary Operator
+let day = 12;
+let study = day > 32 ? "Not Study" : "Defenitely Not Study";
+console.log(study);

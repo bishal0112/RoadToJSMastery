@@ -93,3 +93,19 @@
     | ----- | ------ |
     | true | false |
     | false | true |
+
+---
+
+# Day 4
+
+- Switch Statements
+- Statement and Expression
+- Conditional (Ternary) Operator
+- JS Releases
+- JavaScript and EcmaScript
+- BackWard Compactability and Forward Compactability
+- Development and Production
+- Transpiling and Polyfile(Babel)
+- ES6 compactability table
+- EsNext
+- Strict Mode
