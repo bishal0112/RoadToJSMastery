@@ -109,3 +109,16 @@
 - ES6 compactability table
 - EsNext
 - Strict Mode
+
+---
+
+# Day 5
+
+- Functions
+- Parameters
+- Arguments
+- Return Keyword
+- Function Declaration VS Expression
+- Functions are just value
+- Arrow Function (ES6)
+- Function Calling other Function

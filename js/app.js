@@ -221,7 +221,7 @@ console.log(!true);
 // #5101ff#5101ff#5101ff   DAY 3  #5101ff#5101ff#5101ff
 
 // Switch Statement
-
+/*
 let val = 12;
 switch (val) {
 	case 0:
@@ -272,3 +272,54 @@ if (10 > 4) {
 let day = 12;
 let study = day > 32 ? "Not Study" : "Defenitely Not Study";
 console.log(study);
+*/
+// ================================================================
+// ================================================================
+
+// #5101ff#5101ff#5101ff   DAY 3  #5101ff#5101ff#5101ff
+
+// Function
+
+// Function Declaration
+function randomNumber(number) {
+	let num = Math.floor(Math.random() * number);
+	return num;
+}
+// console.log(randomNumber(10));
+function enterNumber(number) {
+	let num = randomNumber(number);
+	let num1 = Math.floor(Math.random() * num);
+	return num1;
+}
+
+// console.log(enterNumber(10));
+
+//  Functionn Expression
+
+let num1 = function (number) {
+	return number;
+};
+
+let num2 = function (number) {
+	return number;
+};
+
+let addition = function (n, m) {
+	let number1 = num1(n); //function calling other function
+	let number2 = num1(m);
+	return number1 + number2;
+};
+
+console.log(addition(3, 4));
+
+// Arrow Function
+
+function subtraction(num1, num2) {
+	// Parameters
+	return num1 - num2;
+}
+console.log(subtraction(10, 5)); // Arguments
+
+let multiplication = (num1, num2) => num1 * num2;
+
+console.log(multiplication(10, 2));
