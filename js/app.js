@@ -218,7 +218,7 @@ console.log(!true);
 // ================================================================
 // ================================================================
 
-// #5101ff#5101ff#5101ff   DAY 3  #5101ff#5101ff#5101ff
+// #5101ff#5101ff#5101ff   DAY 4  #5101ff#5101ff#5101ff
 
 // Switch Statement
 /*
@@ -276,8 +276,8 @@ console.log(study);
 // ================================================================
 // ================================================================
 
-// #5101ff#5101ff#5101ff   DAY 3  #5101ff#5101ff#5101ff
-
+// #5101ff#5101ff#5101ff   DAY 5  #5101ff#5101ff#5101ff
+/*
 // Function
 
 // Function Declaration
@@ -323,3 +323,56 @@ console.log(subtraction(10, 5)); // Arguments
 let multiplication = (num1, num2) => num1 * num2;
 
 console.log(multiplication(10, 2));
+*/
+
+// ================================================================
+// ================================================================
+
+// #5101ff#5101ff#5101ff   DAY 6 #5101ff#5101ff#5101ff
+
+// Array
+// It is a hetrogeneours collection of items.
+
+let arr1 = ["spiderMON", "superMON", "batMON"];
+let arr2 = new Array("Chota Bheem", "Mighty Raju", "Sinchan");
+console.log(arr1, arr2);
+
+// Retriving Data from Array
+
+console.log(arr1[0]);
+console.log(arr1[arr1.length - 1]);
+
+// Array Index Starts from 0 to n-1
+// Array Length Starts from 1 to n
+
+// Length
+
+console.log(arr1.length);
+
+// Array operations(Methods)
+// Adding
+// add at the end of array
+arr1.push("shaktiMON");
+console.log(arr1);
+// add at the beginning of the array
+arr1.unshift("huMON");
+console.log(arr1);
+
+// Removing
+// remove from the end of the array
+arr1.pop();
+console.log(arr1);
+// remove from the start of the array
+arr1.shift();
+console.log(arr1);
+
+// Searching / Indexing
+//  Old way
+console.log(arr1.indexOf("spiderMON"));
+console.log(arr1.indexOf("batMON"));
+console.log(arr1.indexOf("doreaMON"));
+
+// New way
+console.log(arr1.includes("spiderMON"));
+console.log(arr1.includes("batMON"));
+console.log(arr1.includes("doreaMON"));

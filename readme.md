@@ -122,3 +122,20 @@
 - Functions are just value
 - Arrow Function (ES6)
 - Function Calling other Function
+
+---
+
+# Day 6
+
+- Arrays
+- Arrays using New Keyword
+- Retriving data from an array
+- Array Index
+- Length
+- Array Operations(Methods)
+- Push
+- Unshift
+- Pop
+- Shift
+- IndexOf (Returns index of the element if present else returns -1)
+- Includes (ES6 Returns true or false)
