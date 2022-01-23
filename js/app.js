@@ -329,7 +329,7 @@ console.log(multiplication(10, 2));
 // ================================================================
 
 // #5101ff#5101ff#5101ff   DAY 6 #5101ff#5101ff#5101ff
-
+/*
 // Array
 // It is a hetrogeneours collection of items.
 
@@ -376,3 +376,76 @@ console.log(arr1.indexOf("doreaMON"));
 console.log(arr1.includes("spiderMON"));
 console.log(arr1.includes("batMON"));
 console.log(arr1.includes("doreaMON"));
+
+*/
+
+// ================================================================
+// ================================================================
+// #5101ff#5101ff#5101ff   DAY 7 #5101ff#5101ff#5101ff
+
+// Object Syntax
+let employeeData = {
+	id: "r1913318",
+	firstName: "Bishal",
+	lastName: "Adhikari",
+	birthYear: 2001,
+	calAge: function (currentYear) {
+		return currentYear - this.birthYear;
+	},
+};
+console.log(employeeData);
+
+// Retriving Data using dot and bracket notation
+console.log(employeeData.firstName);
+console.log(employeeData["lastName"]);
+
+// Object Methods (functions)
+
+let objectMethod = {
+	generateRandom: function (number) {
+		return Math.floor(Math.random() * number) + 1;
+	},
+};
+
+console.log(objectMethod.generateRandom(10));
+
+// this Keyword
+
+let thisKeyword = {
+	firstName: "bishal",
+	lastName: "adhikari",
+	addFirstLast: function () {
+		return `${this.firstName} ${this.lastName}`;
+	},
+};
+console.log(thisKeyword.addFirstLast());
+
+// Iterations
+// For loop with break
+
+for (let i = 1; i <= 10; i++) {
+	if (i === 5) break;
+	console.log(i);
+}
+
+// While Loop with continue and looping backwards
+
+let j = 11;
+while (j > 1) {
+	j--;
+	if (j === 5) continue;
+	console.log(j);
+}
+
+// Nested loops
+let string = "";
+function pattern(num) {
+	for (let i = 0; i < num; i++) {
+		for (let j = 0; j < num; j++) {
+			string += "*";
+		}
+		string += "\n";
+	}
+}
+pattern(5);
+console.log(string);

@@ -139,3 +139,19 @@
 - Shift
 - IndexOf (Returns index of the element if present else returns -1)
 - Includes (ES6 Returns true or false)
+
+---
+
+# Day 7
+
+- Objects (Literal Syntax)
+- Retriving data using dot and Bracket Notation
+- Object Methods(Generally Function)
+- This keyword
+- ctrl + d(select Multiple lines)
+- Iteraters: for loop , while loop
+- DRY
+- Break and continue
+- Looping through array
+- Looping Backwards
+- Nested Loops (Loops inside another loop)
