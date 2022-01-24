@@ -155,3 +155,18 @@
 - Looping through array
 - Looping Backwards
 - Nested Loops (Loops inside another loop)
+
+---
+
+# Day 8
+
+- Developer Skills
+- Prettier
+- Configure Prettier
+- Configure Snippet(vs code)
+- use of Live-server, Node.js
+- Learn how to code(Don't be John)
+- Use Stack Overflow, google, MDN
+- console (warn, error, table)
+- Think Like a developer
+- Debugging

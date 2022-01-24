@@ -382,7 +382,7 @@ console.log(arr1.includes("doreaMON"));
 // ================================================================
 // ================================================================
 // #5101ff#5101ff#5101ff   DAY 7 #5101ff#5101ff#5101ff
-
+/*
 // Object Syntax
 let employeeData = {
 	id: "r1913318",
@@ -449,3 +449,17 @@ function pattern(num) {
 }
 pattern(5);
 console.log(string);
+*/
+// ================================================================
+// ================================================================
+// #5101ff#5101ff#5101ff   DAY 8 #5101ff#5101ff#5101ff
+
+// Console variants
+let person = {
+	firstName: "bishal",
+	lastName: "adhikari",
+	age: 21,
+};
+console.table(person);
+console.error(person.firstName);
+console.warn(person.lastName);
