@@ -393,6 +393,7 @@ let employeeData = {
 		return currentYear - this.birthYear;
 	},
 };
+
 console.log(employeeData);
 
 // Retriving Data using dot and bracket notation

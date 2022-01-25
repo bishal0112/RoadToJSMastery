@@ -150,7 +150,7 @@
 - This keyword
 - ctrl + d(select Multiple lines)
 - Iteraters: for loop , while loop
-- DRY
+- DRY (Do Not Repeat Yourself)
 - Break and continue
 - Looping through array
 - Looping Backwards
@@ -170,3 +170,12 @@
 - console (warn, error, table)
 - Think Like a developer
 - Debugging
+
+---
+
+# Day 9
+
+- Basic HTML Structure and Elements
+- Attributes, Classes and IDs
+- Basic Styling with CSS
+- CSS Box Models
