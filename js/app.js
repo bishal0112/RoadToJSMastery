@@ -454,7 +454,7 @@ console.log(string);
 // ================================================================
 // ================================================================
 // #5101ff#5101ff#5101ff   DAY 8 #5101ff#5101ff#5101ff
-
+/*
 // Console variants
 let person = {
 	firstName: "bishal",
@@ -464,3 +464,14 @@ let person = {
 console.table(person);
 console.error(person.firstName);
 console.warn(person.lastName);
+*/
+
+// ================================================================
+// ================================================================
+// #5101ff#5101ff#5101ff   DAY 10 #5101ff#5101ff#5101ff
+
+document.querySelector(".container").addEventListener("click", function () {
+	document.querySelector(".container").style.backgroundColor = "black";
+	document.querySelector("#heading").style.color = "white";
+	document.querySelector("#heading").innerHTML = "You Clicked Me";
+});

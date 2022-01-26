@@ -179,3 +179,15 @@
 - Attributes, Classes and IDs
 - Basic Styling with CSS
 - CSS Box Models
+
+---
+
+# Day 10
+
+- DOM (Document Object Model)
+- document.querySelector('')
+- .textContent, .value
+- Dom Manipulation
+- EventListner (addEventListner)
+- State variable
+- .style. propertyName = 'value';
