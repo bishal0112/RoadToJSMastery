@@ -1,0 +1,29 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html {
+	font-size: 62.5%;
+}
+body {
+	font-size: 1.6rem;
+}
+.section {
+	border: 1px solid black;
+	padding: 2rem 3rem;
+	background-color: rgb(160, 160, 243);
+}
+
+.display {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 70vw;
+	height: 50vh;
+	border: 1px solid black;
+}
+
+.hidden {
+	display: none;
+}

@@ -475,3 +475,11 @@ document.querySelector(".container").addEventListener("click", function () {
 	document.querySelector("#heading").style.color = "white";
 	document.querySelector("#heading").innerHTML = "You Clicked Me";
 });
+
+// ================================================================
+// ================================================================
+// #5101ff#5101ff#5101ff   DAY 11 #5101ff#5101ff#5101ff
+
+document.querySelector(".click-me").addEventListener("click", function () {
+	document.querySelector(".display").classList.toggle("hidden");
+});

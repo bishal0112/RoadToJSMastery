@@ -191,3 +191,19 @@
 - EventListner (addEventListner)
 - State variable
 - .style. propertyName = 'value';
+
+---
+
+# Day 11
+
+- Code Refactoring
+- querySelectorAll('value')
+- classList
+  - add
+  - remove
+  - contains
+  - toggle
+- key Events
+  - keydown
+  - keypressed
+  - keyup
