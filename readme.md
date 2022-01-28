@@ -207,3 +207,13 @@
   - keydown
   - keypressed
   - keyup
+
+---
+
+# Day 12
+
+- diagram.net
+- getElementById('name') (this is faster than queryselector)
+- .src
+- toggle
+- made a game
