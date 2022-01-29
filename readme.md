@@ -217,3 +217,28 @@
 - .src
 - toggle
 - made a game
+
+---
+
+# Day 13
+
+- Overview of JavaScript
+  - High Level
+  - Garbage collection
+  - Interpreted or JIT(Just In time compiled)
+  - Multi Paradigm
+    - Procedural Programming
+    - Object Oriented Programming (oop)
+    - Functional Programming (FP)
+  - Prototype Based Object Oriented
+  - First Class Functions
+  - Dynamic
+  - Single Threaded
+  - Non Blocking event loop
+  - concurrency model
+- event loop
+- Js Engine
+- V8 Engine
+- AST (Abstract Syntax Tree)
+- Call back Queue
+- Execution Context
