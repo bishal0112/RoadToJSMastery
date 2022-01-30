@@ -483,3 +483,42 @@ document.querySelector(".container").addEventListener("click", function () {
 document.querySelector(".click-me").addEventListener("click", function () {
 	document.querySelector(".display").classList.toggle("hidden");
 });
+
+// ================================================================
+// ================================================================
+// #5101ff#5101ff#5101ff   DAY 14 #5101ff#5101ff#5101ff
+
+// Scope chain
+
+// Global variable
+const PI = 3.14;
+
+function circleArea() {
+	// Local Variable
+	const r = 5;
+	return 2 * PI * r;
+}
+
+console.log(circleArea());
+
+// Hoisting possible in function declaration
+console.log(addTwo(5, 2));
+
+function addTwo(a, b) {
+	return a + b;
+}
+
+// Function expression and arrow funtion
+// Reference error
+// console.log(addThree(3, 2, 4));
+const addThree = function (a, b, c) {
+	return a + b + c;
+};
+
+// ReferenceError
+// console.log(addArrow(5, 5));
+const addArrow = (a, b) => a + b;
+
+// Type error since var gives undefined
+// console.log(addArrow1(4, 5));
+var addArrow1 = (a, b) => a + b;

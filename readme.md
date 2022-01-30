@@ -242,3 +242,26 @@
 - AST (Abstract Syntax Tree)
 - Call back Queue
 - Execution Context
+
+---
+
+# Day 14
+
+- Scope and Scope Chain
+- Lexical Scoping
+- Global Scope
+- Function Scope
+- Block Scope
+- Scope of a variable
+- Hoisting
+- TDZ (Temproal Dead Zone)
+- This Keyword
+- Method Borrowing
+
+- ## Hoisting
+  |                                        | Hoisted                       | Initial Value   | Scope    |
+  | -------------------------------------- | ----------------------------- | --------------- | -------- |
+  | function Declaration                   | yes                           | actual function | block    |
+  | var variables                          | yes                           | undefined       | function |
+  | let and const Variables                | NO                            | uninitilized    | block    |
+  | function expression and arrow function | Depends on let, var and const | -               | -        |
