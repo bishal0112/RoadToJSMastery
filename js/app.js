@@ -487,7 +487,7 @@ document.querySelector(".click-me").addEventListener("click", function () {
 // ================================================================
 // ================================================================
 // #5101ff#5101ff#5101ff   DAY 14 #5101ff#5101ff#5101ff
-
+/*
 // Scope chain
 
 // Global variable
@@ -522,3 +522,87 @@ const addArrow = (a, b) => a + b;
 // Type error since var gives undefined
 // console.log(addArrow1(4, 5));
 var addArrow1 = (a, b) => a + b;
+*/
+// ================================================================
+// ================================================================
+// #5101ff#5101ff#5101ff   DAY 14 #5101ff#5101ff#5101ff
+
+// Regular functions vs Arrow functions
+// Regular functions gets its own this keyword where as arrow function does not get its own this keyword
+
+const employee = {
+	id: "a123",
+	firstName: "bishal",
+	lastName: "adhikari",
+	regularFun() {
+		console.log(
+			"This is normal function here this references to the current calling object.",
+		);
+		console.log(`I am ${this.firstName} ${this.lastName}`);
+	},
+	arrowFun: () => {
+		console.log(
+			"This is arrow function here this reference to the parent element",
+		);
+		console.log(`I am ${this.firstName} ${this.lastName}`);
+	},
+};
+
+// employee.regularFun();
+// employee.arrowFun();
+
+const employee1 = {
+	id: "a123",
+	firstName: "bishal",
+	lastName: "adhikari",
+	regularFun() {
+		console.log(
+			"This is normal function here this references to the current calling object.",
+		);
+		console.log(`I am ${this.firstName} ${this.lastName}`);
+		let arrowFun = () => {
+			console.log("This is arrow function inside another function.");
+			console.log(`I am ${this.firstName} ${this.lastName}`);
+		};
+		arrowFun();
+	},
+};
+
+// employee1.regularFun();
+// employee1.arrowFun();
+
+// Reading from one function to another
+// const normalFunction = {
+// 	fName: "first",
+// 	lName: "last",
+// 	firstFunction() {
+// 		console.log(`This is first function`);
+// 		console.log(`${this.fName} ${this.lName}`);
+
+// 		let secondFunction = function () {
+// 			console.log("This is second function");
+// 			console.log(`${this.fName} ${this.lName}`);
+// 		};
+// 		secondFunction();
+// 	},
+// };
+
+// normalFunction.firstFunction();
+
+const normalFunction1 = {
+	fName: "first",
+	lName: "last",
+	firstFunction() {
+		console.log(`This is first function`);
+		console.log(`${this.fName} ${this.lName}`);
+
+		let self = this;
+		let secondFunction = function () {
+			console.log("This is second function");
+			console.log(`${self.fName} ${self.lName}`);
+		};
+		secondFunction();
+	},
+};
+
+normalFunction1.firstFunction();

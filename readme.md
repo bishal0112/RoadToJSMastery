@@ -265,3 +265,13 @@
   | var variables                          | yes                           | undefined       | function |
   | let and const Variables                | NO                            | uninitilized    | block    |
   | function expression and arrow function | Depends on let, var and const | -               | -        |
+
+---
+
+# Day 15
+
+- Regular functions vs Arrow functions
+- Argument Keyword
+- const self = this; (used inside normal function to access the properties of the parent function)
+- primitive vs reference types
+- object.assign({}, objname)
