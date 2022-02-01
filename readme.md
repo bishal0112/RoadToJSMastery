@@ -275,3 +275,13 @@
 - const self = this; (used inside normal function to access the properties of the parent function)
 - primitive vs reference types
 - object.assign({}, objname)
+
+---
+
+# Day 16
+
+- Destructuring array
+- Nested Destructuring
+- Destructuring with default values
+- Destructuring Objects
+- Mutating variables (use () )

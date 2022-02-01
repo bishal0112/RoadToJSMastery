@@ -525,11 +525,11 @@ var addArrow1 = (a, b) => a + b;
 */
 // ================================================================
 // ================================================================
-// #5101ff#5101ff#5101ff   DAY 14 #5101ff#5101ff#5101ff
+// #5101ff#5101ff#5101ff   DAY 15 #5101ff#5101ff#5101ff
 
 // Regular functions vs Arrow functions
 // Regular functions gets its own this keyword where as arrow function does not get its own this keyword
-
+/*
 const employee = {
 	id: "a123",
 	firstName: "bishal",
@@ -606,3 +606,56 @@ const normalFunction1 = {
 };
 
 normalFunction1.firstFunction();
+*/
+
+// ================================================================
+// ================================================================
+// #5101ff#5101ff#5101ff   DAY 16 #5101ff#5101ff#5101ff
+
+const orangeJuice = {
+	id: "a123",
+	quantity: 1,
+	type: "Orange Juice",
+	mix: ["orange", "milk", "sugar", "water"],
+	makeJuice() {
+		console.log("");
+	},
+};
+
+const [a, b, c, d] = orangeJuice.mix;
+console.log(a, b, c, d);
+
+// Nested Array Destructuring
+const nestedArray = [2, 3, [1, 5]];
+const [x, , [y, z]] = nestedArray;
+console.log(x, y, z);
+
+// Destructuring with default values
+
+const arrayDefault = ["a", "b"];
+const [m, n, o = "c"] = arrayDefault;
+console.log(m, n, o);
+
+// Destructuring objects
+const { id, type, mix } = orangeJuice;
+console.log(id, type, mix);
+
+// Mutating variables
+
+let { quantity } = orangeJuice;
+console.log(quantity);
+
+// Nested objects
+let obj1 = {
+	first: "bishal",
+	about: {
+		age: "21",
+		gender: "male",
+	},
+};
+
+const {
+	first,
+	about: { age, gender },
+} = obj1;
+console.log(first, age, gender);
