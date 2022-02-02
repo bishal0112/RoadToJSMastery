@@ -611,7 +611,7 @@ normalFunction1.firstFunction();
 // ================================================================
 // ================================================================
 // #5101ff#5101ff#5101ff   DAY 16 #5101ff#5101ff#5101ff
-
+/*
 const orangeJuice = {
 	id: "a123",
 	quantity: 1,
@@ -659,3 +659,39 @@ const {
 	about: { age, gender },
 } = obj1;
 console.log(first, age, gender);
+*/
+// ================================================================
+// ================================================================
+// #5101ff#5101ff#5101ff   DAY 17 #5101ff#5101ff#5101ff
+
+// spread operator
+let spreadArray = [1, 2, 3, 4, 5];
+console.log(...spreadArray);
+
+// Creates a shallow copy
+let spreadCopy = [...spreadArray];
+console.log(spreadCopy);
+
+// Iterables: String, arrays, maps, sets
+// Strings
+const naming = "JavaScript";
+console.log(...naming);
+// Arrays
+const arr = ["a", "b", "c", "d", "e"];
+console.log(...arr);
+
+// Does not work in tempelete literals
+
+// console.log(`${...spreadArray}`);
+
+// Simple addition
+function calculator(...numbers) {
+	if (numbers.length > 0) {
+		let sum = 0;
+		for (let i = 0; i < numbers.length; i++) {
+			sum += numbers[i];
+		}
+		return sum;
+	}
+}
+console.log(calculator(2, 3, 6, 8));
