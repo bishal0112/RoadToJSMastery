@@ -297,3 +297,18 @@
 - Works on objects even through they are not iterable
 - Rest pattern and parameters
 - Only one rest variable and it must be last
+
+---
+
+# Day 18
+
+- Short Circuting
+  - Uses any Data type
+  - Return any data type
+- || (or)
+- && (and)
+- ?? (nullish coalesing)
+- Logical assignment
+  - ||=
+  - ??=
+  - &&=

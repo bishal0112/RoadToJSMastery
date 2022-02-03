@@ -663,7 +663,7 @@ console.log(first, age, gender);
 // ================================================================
 // ================================================================
 // #5101ff#5101ff#5101ff   DAY 17 #5101ff#5101ff#5101ff
-
+/*
 // spread operator
 let spreadArray = [1, 2, 3, 4, 5];
 console.log(...spreadArray);
@@ -695,3 +695,43 @@ function calculator(...numbers) {
 	}
 }
 console.log(calculator(2, 3, 6, 8));
+*/
+// ================================================================
+// ================================================================
+// #5101ff#5101ff#5101ff   DAY 18 #5101ff#5101ff#5101ff
+
+// Short circuting
+// || returns if true
+let number = 10;
+let newNumber = number || 5;
+console.log(newNumber);
+
+let number1 = 0;
+let newNumber1 = number1 || 20;
+console.log(newNumber1);
+
+// Multiple values
+console.log("" || null || undefined || "name");
+
+// && returns if false
+let number2 = 10;
+let newNumber2 = number2 && 30;
+console.log(newNumber2);
+
+// ?? returns except null and undefined
+let number3 = 0;
+let newNumber3 = number3 ?? 10;
+console.log(newNumber3);
+
+// logical assignment
+let fName = "";
+fName ||= "bishal";
+console.log(fName);
+
+let mName = 0;
+mName &&= "bishal";
+console.log(mName);
+
+let lName = "";
+lName ??= "bishal";
+console.log(lName);
