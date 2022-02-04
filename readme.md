@@ -312,3 +312,17 @@
   - ||=
   - ??=
   - &&=
+
+---
+
+# Day 19
+
+- for of loop
+- ( .entries() ) (to get index and value from an array)
+- Enhanced Object literal
+  - We can use function without function keyword inside an object
+  - We can use key of an object as an expression
+  - We can add external object inside other object by just giving its name
+- Option chaining (?.)
+- Object.key(object name) gets the key from an object
+- Object.value(object name) gets the value from an object

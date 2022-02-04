@@ -699,7 +699,7 @@ console.log(calculator(2, 3, 6, 8));
 // ================================================================
 // ================================================================
 // #5101ff#5101ff#5101ff   DAY 18 #5101ff#5101ff#5101ff
-
+/*
 // Short circuting
 // || returns if true
 let number = 10;
@@ -735,3 +735,41 @@ console.log(mName);
 let lName = "";
 lName ??= "bishal";
 console.log(lName);
+*/
+
+// ================================================================
+// ================================================================
+// #5101ff#5101ff#5101ff   DAY 18 #5101ff#5101ff#5101ff
+
+let days = ["mon", "tue", "wed", "thu", "fri", "sat", "sun"];
+
+// for (const day of days) {
+// 	console.log(day);
+// }
+
+let obj = {
+	weekdays: {
+		day: ["mon", "tue", "wed", "thu", "fri"],
+	},
+	weedends: {
+		day: ["sat", "sun"],
+	},
+};
+
+for (const [week, day] of Object.entries(obj)) {
+	console.log(week, day[`day`]);
+}
+
+// Object chaining
+
+console.log(obj.weedends?.day[0]);
+
+// Object.Keys and Object.value
+// console.log(Object.keys);
+for (const key of Object.keys(obj)) {
+	console.log(key);
+}
+
+for (const value of Object.values(obj)) {
+	console.log(value);
+}
