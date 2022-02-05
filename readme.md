@@ -326,3 +326,43 @@
 - Option chaining (?.)
 - Object.key(object name) gets the key from an object
 - Object.value(object name) gets the value from an object
+
+---
+
+# Day 20
+
+- Some more data Types SETS and MAPS
+- SETS (created using new sets())
+  - new Set()
+  - .has()
+  - .add()
+  - .delete()
+  - .clear()
+- MAPS (created using new map())
+  - new Map()
+  - .set()
+  - .set().set().set() chaining
+  - .get()
+  - .has()
+  - .delete()
+  - .size
+  - .clear()
+- values can be added directly to the map without using set
+- Converting obj to map
+- Converting map to array
+- some datas structure in JS are
+
+  - Array - Store items by assigning index value
+  - Sets - Store unique value which are not repeated
+  - Maps - Hold key value pairs(Key can be unique)
+  - Objects - Hold key value pairs
+
+- Difference between maps and object
+
+| Point     | Object                      | Map                            |
+| --------- | --------------------------- | ------------------------------ |
+| Iterable  | Not directly iterable       | Directly Iterable              |
+| Size      | Does not have size property | Has the size property          |
+| Key Type  | Must Be string or symbol    | Can be any DataType            |
+| Key Order | They are not well ordered   | They are oredered by insertion |
+| Defaults  | Have Default Keys           | Do not have default keys       |

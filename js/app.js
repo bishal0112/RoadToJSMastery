@@ -739,8 +739,8 @@ console.log(lName);
 
 // ================================================================
 // ================================================================
-// #5101ff#5101ff#5101ff   DAY 18 #5101ff#5101ff#5101ff
-
+// #5101ff#5101ff#5101ff   DAY 19 #5101ff#5101ff#5101ff
+/*
 let days = ["mon", "tue", "wed", "thu", "fri", "sat", "sun"];
 
 // for (const day of days) {
@@ -773,3 +773,81 @@ for (const key of Object.keys(obj)) {
 for (const value of Object.values(obj)) {
 	console.log(value);
 }
+*/
+// ================================================================
+// ================================================================
+// #5101ff#5101ff#5101ff   DAY 20 #5101ff#5101ff#5101ff
+
+// Sets
+// Collections of unique values
+// It can hold any value of any data type
+const fName = "Bishal";
+const lName = "Adhikari";
+let nameSet = new Set([...fName]);
+console.log(nameSet);
+for (const i of lName) {
+	nameSet.add(i);
+}
+
+console.log(nameSet.values());
+let fullName = "";
+for (const item of nameSet) {
+	fullName += item;
+}
+console.log(fullName);
+
+console.log(typeof nameSet);
+console.log(nameSet instanceof Set);
+
+nameSet.delete("i");
+console.log(nameSet);
+
+console.log(nameSet.has("i"));
+console.log(nameSet.has("B"));
+
+console.log(nameSet.size);
+
+nameSet.clear();
+console.log(nameSet);
+
+// Maps Holds key value paris where key can be any datatype
+
+const mapping = new Map();
+mapping.set("name", "bishal").set("age", 21).set("profession ", "Jobless");
+console.log(mapping);
+
+for (const key of mapping.keys()) {
+	console.log(key);
+}
+
+for (const values of mapping.values()) {
+	console.log(values);
+}
+
+for (const [key, value] of mapping.entries()) {
+	console.log(key, value);
+}
+
+// Other way of creating map
+const map1 = new Map([
+	[1, "knight"],
+	["age", 24],
+	["profession", "Gamer"],
+	[true, "false"],
+]);
+console.log(map1);
+
+console.log(map1.get(1));
+
+console.log(map1.size);
+
+map1.delete(1);
+console.log(map1);
+
+console.log(map1.has("age"));
+
+console.log(typeof map1);
+console.log(map1 instanceof Map);
+
+map1.clear();
+console.log(map1);
