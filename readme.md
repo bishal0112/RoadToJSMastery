@@ -366,3 +366,29 @@
 | Key Type  | Must Be string or symbol    | Can be any DataType            |
 | Key Order | They are not well ordered   | They are oredered by insertion |
 | Defaults  | Have Default Keys           | Do not have default keys       |
+
+---
+
+# Day 21
+
+- Strings
+- [4] (access character from that position)
+- .length
+- .indexOf()
+- .lastIndexOf()
+- .slice()
+- .toLowerCase()
+- .toUpperCase()
+- .trim()
+- .replace()
+- .replaceAll()
+- regular expression
+  - replace(/word/, 'newWord')
+- .startsWith()
+- .endsWith()
+- .includes()
+- .split()
+- .join()
+- .padStart()
+- .padEnd()
+- .repeat()

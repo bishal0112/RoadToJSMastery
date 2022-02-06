@@ -777,7 +777,7 @@ for (const value of Object.values(obj)) {
 // ================================================================
 // ================================================================
 // #5101ff#5101ff#5101ff   DAY 20 #5101ff#5101ff#5101ff
-
+/*
 // Sets
 // Collections of unique values
 // It can hold any value of any data type
@@ -851,3 +851,64 @@ console.log(map1 instanceof Map);
 
 map1.clear();
 console.log(map1);
+*/
+// ================================================================
+// ================================================================
+// #5101ff#5101ff#5101ff   DAY 21 #5101ff#5101ff#5101ff
+const playString = function (str) {
+	const val = str;
+	console.log(val.length);
+	console.log(val.indexOf("i"));
+	console.log(val.lastIndexOf("i"));
+	console.log(val.slice(0, 6));
+	console.log(val.toUpperCase());
+	console.log(val.toLowerCase());
+	console.log(val.trim());
+	console.log(val.replace("i", "d"));
+	console.log(val.replaceAll("i", "d"));
+	// old method of replace all
+	console.log(val.replace(/d/g, "i"));
+	// startsWith and endsWith returns true if found or else false
+	console.log(val.startsWith("Bish"));
+	console.log(val.startsWith("ish"));
+
+	console.log(val.endsWith("al"));
+	console.log(val.endsWith("ri"));
+
+	// Split and join method
+	console.log(val.split(" "));
+	console.log(val.split(" ").join("-"));
+
+	// PadStart and PadEnd
+	console.log(val.padStart(20, "o "));
+	console.log(val.padEnd(20, "o "));
+	console.log(val.padStart(30, "0 ").padEnd(50, " 0"));
+
+	console.log(val.repeat(3));
+};
+playString("Bishal Adhikari");
+
+const aeroplane = {
+	id: "1232123",
+	planeName: "Air India",
+	path: "Bangalore-Lucknow",
+	timings: "6:00-8:30",
+	seat: "12B",
+	lugages: "3Bags",
+};
+
+const plane = function (values) {
+	const aray = [];
+	for (const val of Object.values(values)) {
+		aray.push(val);
+	}
+	// console.log(aray);
+	console.log(
+		`Your flight ${aray[1]} with ID ${aray[0]} is schedulde from ${
+			aray[2].split("-")[0]
+		} to  ${aray[2].split("-")[1]}  from ${aray[3].split("-")[0]}pm - ${
+			aray[3].split("-")[1]
+		}pm and your seat Number is ${aray[4]} with ${aray[5]}.`,
+	);
+};
+plane(aeroplane);
