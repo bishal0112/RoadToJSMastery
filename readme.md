@@ -392,3 +392,17 @@
 - .padStart()
 - .padEnd()
 - .repeat()
+
+---
+
+# Day 22
+
+- Default Parameters
+- ES5 usign ||
+- ES6 (fname = "newname" )
+- Key Points for default parameters
+  - Order Matters while passing data
+  - While passing arguments if you want to leave space then use undefined.
+- JavaScript does not have pass by reference
+- First class function and higher order function
+- Function calling other functions like eventListeners

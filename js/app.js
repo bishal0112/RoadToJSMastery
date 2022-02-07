@@ -855,6 +855,7 @@ console.log(map1);
 // ================================================================
 // ================================================================
 // #5101ff#5101ff#5101ff   DAY 21 #5101ff#5101ff#5101ff
+/*
 const playString = function (str) {
 	const val = str;
 	console.log(val.length);
@@ -912,3 +913,28 @@ const plane = function (values) {
 	);
 };
 plane(aeroplane);
+*/
+// ================================================================
+// ================================================================
+// #5101ff#5101ff#5101ff   DAY 22 #5101ff#5101ff#5101ff
+
+const employee = {
+	id: "121",
+	fName: "ritesh",
+	age: 32,
+};
+
+const displayEmployee = function (id, fName, age = 30) {
+	console.log(id, fName, age);
+};
+displayEmployee(employee);
+displayEmployee("111", "rakesh");
+displayEmployee("321", "ram");
+
+// ES5 way of declaring default values
+const add = function (num1, num2) {
+	num2 = num2 || 1; // ES5 way
+	console.log(num1 + num2);
+};
+add(21, 22);
+add(59);
