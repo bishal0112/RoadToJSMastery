@@ -406,3 +406,18 @@
 - JavaScript does not have pass by reference
 - First class function and higher order function
 - Function calling other functions like eventListeners
+
+---
+
+# Day 23
+
+- Function accepting call back function
+- function returning function
+- call and apply method
+- Bind Method
+- Partial application
+- ### Call, Apply and Bind Method
+  | Call                                                                   | Apply                       | Bind                                    |
+  | ---------------------------------------------------------------------- | --------------------------- | --------------------------------------- |
+  | With call() we can make methods which can be used on different objects | Same as call                | It can borrow methods from other object |
+  | - It takes differnt parameters as value                                | - It takes Array as a value | - It creates new object                 |
