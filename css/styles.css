@@ -27,3 +27,16 @@ body {
 .hidden {
 	display: none;
 }
+.displayTable {
+	width: 50%;
+	height: 80vh;
+	margin: 0 auto;
+}
+.box {
+	width: 80%;
+	background-color: #f1f0ff;
+	margin: 0 auto;
+	text-align: left;
+	/* letter-spacing: 1px; */
+	font-size: 2.4rem;
+}
