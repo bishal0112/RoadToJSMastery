@@ -439,3 +439,11 @@
   - forEach()
   - \_
   - insertAdjecentHTML
+
+---
+
+# Day 25
+
+- map()
+- filter()
+- reduce()

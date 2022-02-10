@@ -141,7 +141,7 @@ obj1greet("bishal", 21);
 // ================================================================
 // ================================================================
 // #5101ff#5101ff#5101ff   DAY 24 #5101ff#5101ff#5101ff
-
+/*
 // IIFE Immediately invoked function expression
 (function () {
 	console.log("I will run only once");
@@ -216,3 +216,70 @@ const twoTable = function (table = 2) {
 };
 
 twoTable(7);
+*/
+// ================================================================
+// ================================================================
+// #5101ff#5101ff#5101ff   DAY 25 #5101ff#5101ff#5101ff
+
+// Map Method
+// Same as filter but it creates a new array
+// Its parameters value, index, array
+const bookPrices = [200, 100, 800, 350, 120, 666, 121, 921, 572, 234, 412];
+
+const mapArr = bookPrices.map(function (bookPrice) {
+	if (bookPrice < 500) {
+		return `Book Under 500: ${bookPrice}`;
+	} else {
+		return `Book Above 500: ${bookPrice}`;
+	}
+});
+console.log(mapArr);
+console.log("-------------------------");
+// forEach does not create new array
+const forEachArr = bookPrices.forEach(function (bookPrice) {
+	if (bookPrice < 500) {
+		return `Book Under 500: ${bookPrice}`;
+	} else {
+		return `Book Above 500: ${bookPrice}`;
+	}
+});
+
+console.log(forEachArr);
+
+// Filter
+// Used to filter array and return new filtered array
+const filterArr = bookPrices.filter(function (bookPrice) {
+	return bookPrice < 500;
+});
+// using arrow function
+const filterArrow = bookPrices.filter((bookPrice) => bookPrice > 500);
+
+console.log(filterArr);
+console.log(filterArrow);
+// Reduce
+// Reduces the array and returns a single value
+const reduceArr = bookPrices.reduce(function (acc, bookPrice) {
+	const final = acc + bookPrice;
+
+	return final;
+}, 0);
+console.log(reduceArr);
+
+// Hiding Curse Words
+
+const text = `Hello there idiot i wanted to let you know that you are very good but some times you can be a pain in the ass and get mad so try controling you talks.`;
+const curseWords = ["ass", "mad", "idiot"];
+const hideCurseWord = function (para) {
+	let paragraph = para.toLowerCase().split(" ");
+	const curseFree = paragraph.map(function (paraWord) {
+		for (const curseWord of curseWords) {
+			if (paraWord === curseWord) {
+				const wordLength = [...curseWord].length;
+				return "*".repeat(wordLength);
+			}
+		}
+		return paraWord;
+	});
+	return curseFree.join(" ");
+};
+console.log(hideCurseWord(text));
