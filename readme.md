@@ -447,3 +447,15 @@
 - map()
 - filter()
 - reduce()
+
+---
+
+# Day 26
+
+- chaining methods
+- find method
+- default behaviour of form is to reload - this can prevented by using preventDefaults()
+- .blue()
+- findIndex method
+- Some and Every
+- flat and flatMap

@@ -220,7 +220,7 @@ twoTable(7);
 // ================================================================
 // ================================================================
 // #5101ff#5101ff#5101ff   DAY 25 #5101ff#5101ff#5101ff
-
+/*
 // Map Method
 // Same as filter but it creates a new array
 // Its parameters value, index, array
@@ -283,3 +283,40 @@ const hideCurseWord = function (para) {
 	return curseFree.join(" ");
 };
 console.log(hideCurseWord(text));
+*/
+// ================================================================
+// ================================================================
+// #5101ff#5101ff#5101ff   DAY 25 #5101ff#5101ff#5101ff
+
+// Chaining methods
+const datas = [
+	200, 212, 321, -1232, 2312, 123, 11, -232, 123, 3434, -5923, -23423,
+];
+
+console.log(datas.filter((val) => val > 0).reduce((acc, val) => acc + val, 0));
+
+// find method
+const newData = datas.find(function (val) {
+	return val > 0;
+});
+console.log(newData);
+// Find Index
+console.log(
+	datas.findIndex(function (val) {
+		return val > 3434;
+	}),
+);
+
+// some and every
+const someData = datas.some((mov) => mov > 10);
+console.log(someData);
+
+const everyData = datas.every((mov) => mov > 0);
+console.log(everyData);
+
+// flat and flatMap
+const matrix = [1, [2, 3, 4, [5, 6, 7], 8, 9], 10, 11, 12, [13, 14, 15]];
+
+console.log(matrix.flat(2));
+
+// flatMap is a combination of flat and map
