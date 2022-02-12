@@ -286,8 +286,8 @@ console.log(hideCurseWord(text));
 */
 // ================================================================
 // ================================================================
-// #5101ff#5101ff#5101ff   DAY 25 #5101ff#5101ff#5101ff
-
+// #5101ff#5101ff#5101ff   DAY 26 #5101ff#5101ff#5101ff
+/*
 // Chaining methods
 const datas = [
 	200, 212, 321, -1232, 2312, 123, 11, -232, 123, 3434, -5923, -23423,
@@ -320,3 +320,41 @@ const matrix = [1, [2, 3, 4, [5, 6, 7], 8, 9], 10, 11, 12, [13, 14, 15]];
 console.log(matrix.flat(2));
 
 // flatMap is a combination of flat and map
+*/
+
+// ================================================================
+// ================================================================
+// #5101ff#5101ff#5101ff   DAY 26 #5101ff#5101ff#5101ff
+
+const names = [
+	"naruto",
+	"luffy",
+	"goku",
+	"saitama",
+	"remaru",
+	"veldora",
+	"baki",
+	"gon",
+	"killiua",
+	"zoro",
+	"ichigo",
+];
+
+names.sort();
+console.log(names);
+
+const ascending = [221, -1232, 122, 2122, -4943, 94584, 2384, 9039, -3434];
+// sort works with keeping alphabet in mind
+ascending.sort();
+console.log(ascending);
+ascending.sort((a, b) => a - b);
+console.log(ascending);
+
+// fill method
+const newArr = new Array(10);
+newArr.fill(1);
+console.log(newArr);
+
+// Array.from()
+
+console.log(Array.from("ABCDEFGH"));

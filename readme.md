@@ -459,3 +459,13 @@
 - findIndex method
 - Some and Every
 - flat and flatMap
+
+---
+
+# Day 27
+
+- Sorting arrays
+- .sort() methods it mutates the original array, it can accept a function
+- fill() used for filling of an array
+- Array.from()
+- Which array to use
