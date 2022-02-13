@@ -324,8 +324,8 @@ console.log(matrix.flat(2));
 
 // ================================================================
 // ================================================================
-// #5101ff#5101ff#5101ff   DAY 26 #5101ff#5101ff#5101ff
-
+// #5101ff#5101ff#5101ff   DAY 27 #5101ff#5101ff#5101ff
+/* 
 const names = [
 	"naruto",
 	"luffy",
@@ -358,3 +358,71 @@ console.log(newArr);
 // Array.from()
 
 console.log(Array.from("ABCDEFGH"));
+*/
+
+// ================================================================
+// ================================================================
+// #5101ff#5101ff#5101ff   DAY 28 #5101ff#5101ff#5101ff
+
+//  converting numbers
+const num = "31";
+console.log(Number(num));
+console.log(num);
+console.log(+num);
+
+// Parsing
+// number ending with string can be parsed
+// Number starting with string cannot be parsed
+
+const remUnit = "3.2rem";
+console.log(parseInt(remUnit));
+console.log(parseFloat(remUnit));
+
+// isNan
+console.log(isNaN(20));
+console.log(isNaN(remUnit));
+
+// infinity
+console.log(typeof Infinity);
+console.log(typeof NaN);
+
+console.log(Number.isInteger(29));
+console.log(Number.isInteger("29"));
+
+// Some math functions
+console.log(Math.sqrt(25));
+
+// to find cube root
+console.log(8 ** (1 / 3));
+
+console.log(Math.max(12, 22, 22, 33, 12));
+console.log(Math.min(12, 34, 1, 43, 12, 433));
+
+console.log(Math.PI);
+console.log(Math.E);
+
+console.log(Math.abs(-123));
+console.log(Math.pow(5, 3));
+
+console.log(Math.floor(Math.random() * 6) + 1);
+
+console.log(Math.trunc(23.23));
+console.log(Math.ceil(23.23));
+console.log(Math.floor(23.23));
+
+console.log((234.232).toFixed(2));
+// remainder operator %
+console.log(31 % 3);
+
+// Date object
+const date = new Date();
+console.log(date);
+console.log(date.getDate());
+console.log(date.getDay());
+console.log(date.getFullYear());
+console.log(date.getHours());
+console.log(date.getUTCDay());
+console.log(date.getMonth());
+console.log(date.getTimezoneOffset());
+console.log(date.getMilliseconds());
+console.log(date.toLocaleDateString());

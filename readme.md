@@ -469,3 +469,36 @@
 - fill() used for filling of an array
 - Array.from()
 - Which array to use
+
+---
+
+# Day 28
+
+- Converting and checking numbers
+  - Number()
+  - +'30'
+- Parsing
+  - parseInt
+  - parseFloat
+  - isNaN
+- Conversion
+- Number.isFinite()
+- isInteger()
+- Infinite
+- Math functions
+- sqrt()
+- PI
+- max, min
+- random
+- trunc
+- ceil
+- floor
+- toFixed()
+- remainder operator( modulus )
+- numeric seprator \_ 232_2323
+- bigInt
+- Number.Max_safe_integer
+- n <- for bigInt
+- Date
+- Date.now - to get the current date
+- other date functions
