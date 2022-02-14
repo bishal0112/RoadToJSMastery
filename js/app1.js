@@ -363,7 +363,7 @@ console.log(Array.from("ABCDEFGH"));
 // ================================================================
 // ================================================================
 // #5101ff#5101ff#5101ff   DAY 28 #5101ff#5101ff#5101ff
-
+/*
 //  converting numbers
 const num = "31";
 console.log(Number(num));
@@ -426,3 +426,9 @@ console.log(date.getMonth());
 console.log(date.getTimezoneOffset());
 console.log(date.getMilliseconds());
 console.log(date.toLocaleDateString());
+*/
+// ================================================================
+// ================================================================
+// #5101ff#5101ff#5101ff   DAY 29 #5101ff#5101ff#5101ff
+
+// Made a clock

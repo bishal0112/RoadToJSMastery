@@ -502,3 +502,14 @@
 - Date
 - Date.now - to get the current date
 - other date functions
+
+---
+
+# Day 29
+
+- moment.js
+- Internationalization Dates
+- Internationalization Time
+- SetTimeOut
+- SetInterval
+- ClearInterval and ClearTimeOut
