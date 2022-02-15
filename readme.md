@@ -513,3 +513,13 @@
 - SetTimeOut
 - SetInterval
 - ClearInterval and ClearTimeOut
+
+---
+
+# Day 30
+
+- How the DOM works behind the scene
+- Dom is the interface between JavaScript and Browser(HTML)
+- Selecting, Creating and Deleting Element
+- Attributes, Data Attributes
+- Styling CSS
