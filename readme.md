@@ -523,3 +523,18 @@
 - Selecting, Creating and Deleting Element
 - Attributes, Data Attributes
 - Styling CSS
+
+---
+
+# Day 31
+
+- Events in javaScript
+- addEventListner
+- ele.onmouseEnter
+- \<h1 onlick = "hello">
+- Event Propogation : Bubbling and Capturing
+- whenever a event is activated it travels through all the parent element before reaching the eventNode
+- It does not pass thorough any sibling elements
+- current target
+- target
+- e.stopPropagation();
