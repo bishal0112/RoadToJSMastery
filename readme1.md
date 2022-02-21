@@ -1,0 +1,21 @@
+# Day 1
+
+- Event delegation
+- DOM Traversing
+  - Going Downwards: Selecting Childrens
+    - querySelector
+    - childNodes
+    - children
+    - firstElementChild
+    - LastElementChild
+    - firstChild
+  - Going Upwards: Selecting Parents
+    - parentNode
+    - parentElement
+    - closest()
+  - Going Sideways: Selecting Siblings
+    - previousElementSiblings
+    - nextElementSiblings
+    - previousSibling
+    - nextSibling
+- Tabbed Component
