@@ -19,3 +19,12 @@
     - previousSibling
     - nextSibling
 - Tabbed Component
+
+---
+
+# Day 2
+
+- Passing arguments to event handler
+- Sticky Navigation
+- Observer API
+- new IntersectionObserver()
