@@ -28,3 +28,17 @@
 - Sticky Navigation
 - Observer API
 - new IntersectionObserver()
+
+---
+
+# Day 3
+
+- Revealing elements on scroll
+- Lazy loading images
+- building a slider component
+- Life cycle DOM Events
+- DomContentLoaded
+- Load
+- BeforeUnload
+- e.returnValue = ''
+- Effecient Script Loading: Defer ad async
