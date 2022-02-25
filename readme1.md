@@ -42,3 +42,38 @@
 - BeforeUnload
 - e.returnValue = ''
 - Effecient Script Loading: Defer ad async
+
+---
+
+# Day 4,5
+
+- What is object oriented programming?
+- The 4 fundamental principles of OOP
+
+  - Abstraction
+  - Encapsulation
+  - Inheritance
+  - Polymorphism
+
+- Oop in Javascript?
+
+  - Prototypes-Object are lined to a prototype object.
+  - It's called prototypal inheritacne
+  - Delegation
+
+- 3 ways to implement Prototypal inheritance
+
+  - 1. constructure function
+  - 2. ES6 classes
+  - 3. Object.create()
+
+- Constructor function and new operator
+
+- What happens when you create a constructor function.
+
+  - 1. New {} is created
+  - 2. Function is called, this = {}
+  - 3. {} linked to prototype
+  - 4. function automatically returns {}
+
+- Note : constructor function is only possible for function expression and declaration and not for arrow funtion as arrow function does not have its own return type.
