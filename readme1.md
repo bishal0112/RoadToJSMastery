@@ -77,3 +77,16 @@
   - 4. function automatically returns {}
 
 - Note : constructor function is only possible for function expression and declaration and not for arrow funtion as arrow function does not have its own return type.
+
+---
+
+# Day 6
+
+- Prototypes
+  - Person.prototype.calcAge = function() {}
+  - bishal.**proto**
+  - isPrototypeOf()
+  - hasOwnProperty()
+- Prototypal Inheritance and the Prototype chain
+- Prototype chain
+- Prototypal Inheritance and the Prototype chain on Built in Objects.
