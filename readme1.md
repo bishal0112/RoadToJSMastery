@@ -90,3 +90,19 @@
 - Prototypal Inheritance and the Prototype chain
 - Prototype chain
 - Prototypal Inheritance and the Prototype chain on Built in Objects.
+
+---
+
+# Day 7
+
+- ES6 Classes
+  - Class expression
+  - Class declaration
+- NOTE
+  - 1. Classes are NOT Hoisted
+  - 2. Classes are first class citizens
+  - 3. Classes are executed in strict mode
+- Setters and getters
+  - set and get
+- static methods and Instance method
+- object.create() - used for inheritance

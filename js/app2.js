@@ -4,7 +4,7 @@
 // #5101ff#5101ff#5101ff   DAY 1 #5101ff#5101ff#5101ff
 
 // #5101ff#5101ff#5101ff   DAY 5 #5101ff#5101ff#5101ff
-
+/*
 // Implementing classes using constructor function and new keyword
 
 const Person = function (firstName, birthYear) {
@@ -36,3 +36,42 @@ Array.prototype.magic = function () {
 
 arr.magic();
 console.log(arr.magic());
+*/
+// #5101ff#5101ff#5101ff   DAY 7 #5101ff#5101ff#5101ff
+
+// Class expression
+const Person1 = class {
+	calcal() {
+		return 10 - 5;
+	}
+};
+
+let bishaal = new Person1();
+bishaal.calcal();
+console.log(bishaal.calcal());
+
+// class declaration
+
+class box {
+	// constructor used to initilize the variables
+	constructor(side) {
+		this.side = side;
+	}
+	sqArea() {
+		return this.side * this.side;
+	}
+}
+
+const box1 = new box(5);
+console.log(box1);
+
+// Setters and getters
+
+class owngetters {
+	get blank() {
+		return "";
+	}
+}
+
+const bis = new owngetters();
+console.log(bis.blank);
