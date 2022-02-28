@@ -106,3 +106,11 @@
   - set and get
 - static methods and Instance method
 - object.create() - used for inheritance
+
+---
+
+# Day 8
+
+- Inheritance between classes: Constructor function
+- Inheritance between classes: ES6 classes
+- Inheritance between classes: Object.create
