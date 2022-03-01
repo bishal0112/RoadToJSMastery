@@ -114,3 +114,13 @@
 - Inheritance between classes: Constructor function
 - Inheritance between classes: ES6 classes
 - Inheritance between classes: Object.create
+
+---
+
+# Day 9
+
+- Another class Exampele
+- Encapsulation: Protected properties and methods
+- Encapsulation: Private class fields and methods
+- Chaining Methods
+- ES6 Classes Summary

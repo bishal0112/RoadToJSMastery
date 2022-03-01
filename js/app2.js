@@ -38,7 +38,7 @@ arr.magic();
 console.log(arr.magic());
 */
 // #5101ff#5101ff#5101ff   DAY 7 #5101ff#5101ff#5101ff
-
+/*
 // Class expression
 const Person1 = class {
 	calcal() {
@@ -75,3 +75,5 @@ class owngetters {
 
 const bis = new owngetters();
 console.log(bis.blank);
+*/
+// #5101ff#5101ff#5101ff   DAY 9 #5101ff#5101ff#5101ff
